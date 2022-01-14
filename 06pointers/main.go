@@ -20,4 +20,7 @@ func main() {
 
 	// "*" gets the actual variable instead of memory address
 	fmt.Println("Value of pointer is ", *myNumberPtr)
+
+	*myNumberPtr = *myNumberPtr + 2
+	fmt.Println("Value of pointer is ", myNumber)
 }
